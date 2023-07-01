@@ -15,7 +15,7 @@ function fetchBooks() {
 function showBooks(books) {
     books.forEach(book => {
         const bookImage = document.createElement('img')
-        const bookTitle = document.createElement('h2')
+        const bookTitle = document.createElement('h3')
         const book_content = document.createElement('div')
         book_content.className = "book_content"
         book_content.addEventListener('click', showAdditionalDetails)
