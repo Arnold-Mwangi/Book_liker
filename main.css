@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.icon {
+    background-color: transparent;
+    color: white;
+}
+
+.book_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book_cards>div {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book_content {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+
+    background-color: #6666664f;
+}
+.book_content img{
+    border-radius: 10px;
+}

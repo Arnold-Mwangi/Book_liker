@@ -1,0 +1,25 @@
+//dekliverables
+listing Books
+show Details
+LIke a book
+
+// pseudo code
+
+create a fetch function
+ initialize a fetch request 
+ return fetch data
+ call listBooks functions(books)
+
+
+create showBooks (books){
+
+}
+create nodes dynamically(bookstitle)
+Add an eventListener('click', displayBooksDeails(books)) on our books card element
+On clicking the books Card element call  the callBack function
+Assign values to nodes
+Append nodes to body
+
+Create displayBooksDeails(books){
+
+}
